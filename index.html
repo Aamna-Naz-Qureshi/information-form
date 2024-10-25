@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>information-form</title>
+    <style>
+      input {
+        padding: 10px;
+      }
+      body {
+        font-family: sans-serif;
+        color: gray;
+        text-align: center;
+      }
+      fieldset {
+        width: 40%;
+      }
+      form {
+        margin-left: 700px;
+        margin-top: 130px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>
+          <h1>personal information form</h1>
+        </legend>
+        <input type="text" placeholder="FirstName" />
+        <input type="text" placeholder="LasttName" /><br /><br />
+        <input
+          type="text"
+          placeholder="email address"
+          style="width: 380px"
+        /><br /><br />
+        <label for="">birth of date</label><br /><br />
+        <input type="date" style="width: 380px" /><br /><br />
+        <input
+          type="text"
+          placeholder="Address"
+          style="width: 380px"
+        /><br /><br />
+        <select name="gender" id="gender" style="width: 405px">
+          <option>City</option>
+          <option>Karachi</option>
+          <option>Peshawar</option>
+          <option>Lahore</option>
+          <option>Faisalabad</option>
+          <option>Multan</option>
+          <option>Hyderabad</option>
+          <option>Islamabad</option>
+        </select>
+        <br /><br />
+        <label for="" style="color: black">Gender :</label><br /><br />
+        <label>Male</label>
+        <input type="radio" name="option" />
+        <label>Female</label>
+        <input type="radio" name="option" />
+        <br /><br />
+        <label style="color: black">Phone Number</label><br /><br />
+        <input type="text" style="width: 380px" /><br /><br />
+      </fieldset>
+    </form>
+  </body>
+</html>
